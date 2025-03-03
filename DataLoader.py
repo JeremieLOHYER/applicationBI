@@ -5,7 +5,7 @@ import pandas as pd
 
 
 class DataLoader:
-    src_path = "src/"
+    src_path = "data/"
     feature_names = ['CDSEXE', 'MTREV', 'NBENF', 'CDSITFAM', 'CDTMT', 'CDDEM', 'CDMOTDEM', 'CDCATCL']
 
     def check_feature(self, data, feature_type):
